@@ -14,12 +14,12 @@ Team member names and computing IDs: Malinda Amarakoon (zjm4us) Taylor Colaizzi 
 
 Exercise 2 comments:
 --
-
+Here are our comments about what we did for exercise 2.
 
 -----
 
 Exercise 3 comments:
 --
-
+Here are our comments about what we did for exercise 3.
 
 -----
