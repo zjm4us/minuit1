@@ -8,7 +8,7 @@
 
 -----
 
-Team member names and computing IDs: AAA(aaa) Taylor Colaizzi (zxk4gs)
+Team member names and computing IDs: Malinda Amarakoon (zjm4us) Taylor Colaizzi (zxk4gs)
 
 -----
 
