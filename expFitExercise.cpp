@@ -29,6 +29,7 @@ int main() {
 
     // --- Open ROOT file ---
     TFile *file = TFile::Open("/home/zjm4us/compphys/minuit1/distros.root");
+    // TFile *file = TFile::Open("distros.root");
     if (!file || file->IsZombie()) {
         cerr << "Error opening ROOT file!" << endl;
         return 1;
