@@ -15,13 +15,16 @@ ROOTLINK=-L$(ROOTLIBDIR) $(ROOTLIBS) $(ROOTLDFLAGS)
 
 CPP=g++
 
-default: expFit rootExample
+default: expFit rootExample expFitExercise
 
 expFit: expFit.cpp
 	$(CPP) -O -Wall $(ROOTC) -o expFit expFit.cpp $(ROOTLINK) 
 
 rootExample: rootExample.cpp
 	$(CPP) -O -Wall $(ROOTC) -o rootExample rootExample.cpp $(ROOTLINK) 
+
+expFitExercise: expFitExercise.cpp
+	$(CPP) -O -Wall $(ROOTC) -o expFitExercise expFitExercise.cpp $(ROOTLINK) 
 # note: just replace the -O flag with -g to build a debug version
 
 clean: 
