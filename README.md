@@ -20,6 +20,6 @@ Exercise 2 comments:
 
 Exercise 3 comments:
 --
-
+Here are our comments about what we did for exercise 3.
 
 -----
