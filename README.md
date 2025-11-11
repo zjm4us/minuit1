@@ -39,10 +39,20 @@ Exercise 2 comments:
 
 Exercise 3 comments:
 --
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Here are our comments about what we did for exercise 3.
+=======
+>>>>>>> d436bc1
 - The 2D Gaussian fit accurately reproduces the signal peak.  
 - Residuals show no significant structure, confirming a good model.  
 - Background normalization near unity indicates a consistent background model.  
 - Signal yield computed from \(N_\text{sig} = A \pi \sigma_1 \sigma_2\).  
 - Results and plots stored in **ex3.pdf**.
+<<<<<<< HEAD
+=======
+>>>>>>> be093c7 (Comments)
+>>>>>>> d436bc1
 
 -----

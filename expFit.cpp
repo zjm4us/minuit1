@@ -4,6 +4,8 @@
 // minimizes - 2*log(L).   The user must specify what to minimize in the 
 // function fcn, shown in this file below.
 
+// FOR EXERCISE 1, WE CHANGE TO CHI-SQUARE!!!
+
 // fcn passes back f = -2*ln L by reference; this is the function to minimize.
 // The factor of -2 allows MINUIT to get the errors using the same
 // recipe as for least squares, i.e., go up from the minimum by 1.
@@ -21,6 +23,7 @@
 
 // Update Bob Hirosky: Sep 2013
 
+// updated Malinda Amarakoon & Taylor Colaizzi: November 2025
 
 #include <iostream>
 #include <fstream>
@@ -59,7 +62,7 @@ double expPdf(double* xPtr, double par[]){
   double A = par[0];         // normalization
   double lam = par[1];       // mean of x
   double f = 0;
-  f = A * exp(x/lam); 
+  f = A * exp(x/lam);
   return f;
 }
 
